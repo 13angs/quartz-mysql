@@ -1,7 +1,10 @@
 version: '3'
 services:
-  mysql:
-    image: mysql:latest
+  quartz-mysql:
+    image: 13angs/quartz-mysql:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: QRTZ_DB
