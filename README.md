@@ -1,5 +1,7 @@
 # Quartz Mysql schema
 
+[![build](https://github.com/13angs/quartz-mysql/actions/workflows/build.yml/badge.svg)](https://github.com/13angs/quartz-mysql/actions/workflows/build.yml)
+
 ## Initialize the schema using docker-compose
 
 - download the schema from Quartz official repo
