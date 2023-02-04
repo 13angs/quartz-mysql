@@ -7,7 +7,6 @@ on:
   
 jobs:
   build:
-    needs: "build"
     name: Deploy to Dockerhub
     runs-on: ubuntu-latest
 
